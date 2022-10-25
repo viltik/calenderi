@@ -23,7 +23,7 @@ const [showTime, setShowTime] = useState(false)
    </p>
           ) : (
    <p>
-      <span>Default selected date:</span>{date.toDateString()}
+      <span>Valittu päivämäärä on:</span>{date.toDateString()}
    </p> 
           )
    }
