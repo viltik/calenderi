@@ -9,7 +9,7 @@ function Kalenteri() {
   }
 
   return (
-    <Calendar
+    <Kalenteri
       onChange={onChange}
       value={value}
     />
