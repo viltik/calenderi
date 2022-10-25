@@ -2,8 +2,7 @@ import {useState} from 'react';
 import Calendar from 'react-calendar';
 import './App.css';
 import Time from './Time.js'
-import Kalenteri from './Kalenteri';
-import Kalenteri2 from './Kalenteri2';
+import Kalenteri3 from './Kalenteri3';
 
 
 function App() {
@@ -17,7 +16,7 @@ console.log(date);
  <div className='app'>
    <h1 className='header'>Reeni Kalenteri</h1>
    <div>
-    <Kalenteri/>
+    <Kalenteri3/>
    </div>
 
  </div>
